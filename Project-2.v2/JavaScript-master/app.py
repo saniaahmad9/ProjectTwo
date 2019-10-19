@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 engine = create_engine('postgresql://postgres:,rc!7YVI@localhost/ISS')
 connection = engine.connect()
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:,rc!7YVI@localhost/ISS'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/ISS'
 db = SQLAlchemy(app)
 
 Base = automap_base()
