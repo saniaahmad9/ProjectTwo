@@ -12,3 +12,5 @@ We used SQL Alchemy to create the connection string to the database, created the
 
 **Javascript and d3:**
 We used d3.json to capture the JSONified version of our data from the last route created. We then built the table. This involved looping through each object in the data and appending a row and cells for each value in the row. 
+
+![Space Station](https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss044e045215_lrg.jpg)
