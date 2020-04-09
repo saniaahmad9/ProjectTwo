@@ -7,7 +7,7 @@ For our project we created a website that sighting opportunities of the Internat
 **Importing the data into a Database:**
 We began by creating a SQL database, called ISS_Locations where we imported our CSV file. Our CSV file contains the general location in the sky when the ISS can be visible on a given date in a given city. The cities include Northern Virginia. Maryland, and DC. 
 
-   *See Python Code [HERE](https://github.com/saniaahmad9/ProjectTwo/blob/master/Project-2.v2/JavaScript-master/Untitled.ipynb)
+     See Python Code [HERE](https://github.com/saniaahmad9/ProjectTwo/blob/master/Project-2.v2/JavaScript-master/Untitled.ipynb)
 
 **SQL Alchemy and Flask:**
 We used SQL Alchemy to create the connection string to the database, created the application object, and specified our routes. We had four routes, one for our homepage, one for our data page, one for our live tracker page, and one that returns our data as a JSON. This last route required us to query the database, create a dataframe from the data, and JSONify the data to be used in the app.js file. 
